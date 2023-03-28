@@ -1,0 +1,572 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body .MenuPrincipal {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+    width: 100%;
+}
+
+body .MenuPrincipal .logo {
+    border-radius: 5px;
+    height: 52px;
+    width: 250px;
+}
+
+body .MenuPrincipal .logo .isotipo {
+    display: none;
+}
+
+body .MenuPrincipal .logo > img {
+    vertical-align: top;
+}
+
+body .MenuPrincipal .MenuItems {
+    align-items: center;
+    display: flex;
+    gap: 54px;
+}
+
+body .MenuPrincipal .MenuItems > img {
+    display: none;
+}
+
+body .MenuPrincipal .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 25px;
+}
+
+body .MenuPrincipal .MenuItems .Items > p {
+    color: #118596;
+
+}
+
+body .MenuPrincipal .MenuItems .boton {
+    background-color: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-size: 24px;
+}
+
+<!--Imagen-->
+
+body .section1 {
+    position: relative;
+}
+
+body .section1 .Imagen img {
+    vertical-align: top;
+    width: 100%;
+}
+
+body .section1 .Titulo-boton {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+body .section1 .Titulo-boton > h1 {
+    margin: 30px 0;
+    color: #ffb600;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+body .section1 .Titulo-boton .Boton-amarillo {
+    background: #ffB600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 16px 32px;
+}
+
+body .Beneficios {
+    display: flex;
+    justify-content: space-between;
+    padding: 144px 144px 233px 144px;
+    width: 100%;
+    gap: 66px;
+}
+
+body .Beneficios .Beneficios-card {
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px 38px;
+}
+
+body .Beneficios .Beneficios-card span {
+    font-size: 88px;
+    text-align: center;
+}
+
+body .Beneficios .Beneficios-card >h2 {
+    font-size: 34px;
+    text-align: center;
+    margin: 24px;
+    width: 90%;
+}
+
+body .Beneficios .Beneficios-card > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Masinformacion {
+    background: #efefef;
+    padding: 89px 260px;
+}
+
+body .Masinformacion .Contenido {
+    display: flex;
+    flex-wrap: wrap;
+    height: 212px;
+    margin: 24px;
+}
+
+body .Masinformacion .Contenido .Titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Masinformacion .Contenido .Titulo > h4 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Masinformacion .Contenido .Titulo > span {
+    border: 1px solid #118596;
+    width: 10%;
+}
+
+body .Masinformacion .Contenido > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Masinformacion .Contenido > button {
+    display: none;
+    border: 2px solid #118596;
+    background: none;
+    border-radius: 5px;
+    color: #118596;
+    cursor: pointer;
+    padding: 16px 32px;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+body .cards {
+    padding: 89px 144px;
+    display: flex;
+    justify-content: center;
+    gap: 132px;
+}
+
+body .cards .card1 {
+    background: #efefef;
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 483px;
+}
+
+body .cards .card1 .Contenido-card {
+    width: 439px;
+    padding: 55px 34px;
+    text-align: center;
+}
+
+body .cards .card1 .Contenido-card .Titulo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .cards .card1 .Imagen-card {
+    width: 311px;
+    flex: 40%;
+}
+
+body .cards .card1 .Contenido-card .Titulo-card > h4 {
+    font-size: 34px;
+    text-align: center;
+    margin: 24px 0;
+    width: 100%;
+}
+
+body .cards .card1 .Contenido-card .Titulo-card > span {
+    border: 1px solid #118596;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+
+}
+
+body .cards .card1 .Contenido-card > p {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+body .cards .card1 .Imagen-card > img {
+    flex: 80%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+body .cards .card1 .Contenido-card > button{
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    cursor: pointer;
+    padding: 16px 32px;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+body .final {
+    padding: 150px 200px 233px 200px;
+}
+
+body .final .contenido-final {
+    display: flex;
+    flex-wrap: wrap;
+    height: 212px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+body .final .contenido-final .titulo-final {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .final .contenido-final .titulo-final > h5 {
+    margin: 24px 0;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+body .final .contenido-final .titulo-final > span {
+    border: 1px solid #118596;
+    width: 10%;
+}
+
+body .final .contenido-final > p {
+    font-size: 24px;
+    margin: 34px 0;
+    text-align: center;
+}
+
+body .final .contenido-final > button {
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-size: 24px;
+}
+
+body .contacto {
+    align-items: center;
+    background: #efefef;
+    display: flex;
+    padding: 100px 383px;
+    justify-content: center;
+    gap: 233px;
+}
+
+body .contacto .contenido-izquierda {
+    width: 50%;
+    gap: 24px;
+}
+
+body .contacto .contenido-izquierda .extra {
+    gap: 16px;
+    display: flex;
+    font-size: 16px;
+}
+
+body .contacto .contenido-izquierda .mas > h6 {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+body .contacto .contenido-izquierda > p {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+body .contacto .contenido-izquierda .extra > span {
+    border: 1px solid #118596;
+}
+
+body .contacto .contenido-derecha {
+    display: flex;
+    width: 50%;
+    gap: 70px;
+} 
+
+body .contacto .contenido-derecha .contenido-mas .enlaces {
+    display: flex;
+    flex-direction: column;
+    line-height: 44px;
+}
+
+body .contacto .contenido-derecha .contenido-mas .enlaces > h6 {
+    font-size: 16px;
+}
+
+body .contacto .contenido-derecha .contenido-mas .enlaces > a {
+    font-size: 16px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1366px) {
+    body .MenuPrincipal {
+        padding: 21px 56px;
+    }
+    body .Beneficios {
+        padding: 144px 54px;
+    }
+    body .Masinformacion {
+        padding: 89px 56px;
+    }
+    body .cards { 
+        padding: 90px 233px;
+        flex-direction: column;
+        row-gap: 80px;
+    }
+    body .cards .card1 {
+        width: 900px;
+        justify-content: center;
+    }
+    body .final {
+        padding: 144px 56px;
+    }
+    body .contacto {
+        padding: 100px 106px;
+    }
+}
+ 
+@media only screen and (max-width: 830px) {
+    body .MenuPrincipal {
+        padding: 21px 48px;
+    }
+
+    body .MenuPrincipal .MenuItems > img {
+        display: unset;
+    }
+
+    body .MenuPrincipal .MenuItems .Items {
+        display: none;
+    }
+    
+    body .MenuPrincipal .MenuItems .boton {
+        display: none;
+    }
+    body .Beneficios {
+        text-align: center;
+        padding: 98px 180px;
+        flex-direction: column;
+    }
+    body .Masinformacion {
+        padding: 89px 56px;
+    }
+    body .Masinformacion .Contenido .Titulo > span {
+        width: 20%;
+    }
+    body .cards {
+        padding: 144px 65px;
+        row-gap: 144px;
+    }
+    body .cards .card1 {
+        flex-direction: column-reverse;
+        width: 718px;
+        height: 724px;
+    }
+    body .cards .card1 .Imagen-card > img {
+        width: 718px;
+        height: 344px;
+    }
+    body .cards .card1 .Contenido-card  {
+        width: 638px;
+        align-self: center; 
+    }
+    body .final {
+        padding: 0px 56px 144px 56px;
+    }
+    body .final .contenido-final {
+        align-self: center;
+    }
+    body .final .contenido-final .titulo-final > span {
+        width: 20%;
+    }
+    body .contacto {
+        flex-direction: column-reverse;
+        padding: 32px 167px;
+        gap: 80px;
+    }
+    body .contacto .contenido-derecha {
+        justify-content: center;
+        display: flex;
+        width: 510px;
+    } 
+    body .contacto .contenido-derecha .contenido-mas .enlaces {
+        flex-direction: column;
+        line-height: 34px;
+    }
+    body .contacto .contenido-izquierda {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+    }
+    body .contacto .contenido-izquierda .extra {
+        position: absolute;
+        right: 320px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .MenuPrincipal {
+        padding: 21px 24px;
+    }
+
+    body .MenuPrincipal .logo .normal {
+        display: none;
+    }
+
+    body .MenuPrincipal .logo .isotipo {
+        display: unset;
+    }
+    body .section1 .Imagen > img {
+        width: 360px;
+        height: 553px;
+        object-fit: cover;
+    }
+    body .section1 .Titulo-boton {
+        padding: 116px 24px 170px 24px;
+        width: 300px;
+    }
+    body .section1 .Titulo-boton h1 {
+        font-size: 32px;
+    }
+    body .section1 .Titulo-boton .Boton-amarillo {
+        font-size: 16px;
+    }
+    body .Beneficios {
+        padding: 98px 24px;
+    }
+    body .Beneficios .Beneficios-card > p {
+        font-size: 16px;
+    }
+    body .Masinformacion {
+        padding: 56px 24px;
+        justify-content: center;
+        height: 575px;
+    }
+    body .Masinformacion .Contenido {
+        justify-content: center;
+    }
+    body .Masinformacion .Contenido .Titulo > span {
+        width: 50%;
+        margin-top: 50px;
+    }
+    body .Masinformacion .Contenido > p {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    body .Masinformacion .video {
+        display: none;
+    }
+    body .Masinformacion .Contenido > button {
+        display: flex;
+        margin-top: 50px;
+    }
+    body .cards {
+        padding: 75px 0;
+    }
+    body .cards .card1 {
+        padding: 75px 0;
+        flex-direction: column-reverse;
+        width: 360px;  
+    }
+    body .cards .card1 .Imagen-card > img {
+        width: 360px;
+    }
+    body .cards .card1 .Contenido-card  {
+        width: 360px;
+        align-self: center; 
+    }
+    body .cards .card1 .Contenido-card > p {
+        font-size: 16px;
+    }
+    body .final {
+        padding: 70px 24px;
+    }
+    body .final .contenido-final .titulo-final > span {
+        width: 40%;
+    }
+    body .final .contenido-final > p {
+        font-size: 16px;
+    }
+    body .contacto {
+        padding: 32px 80px;
+        width: 360px;
+        margin-top: 144px;
+    }
+    body .contacto .contenido-derecha {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+    body .contacto .contenido-izquierda {
+        width: 312px;
+    }
+    body .contacto .contenido-izquierda .extra {
+        position: absolute;
+        right: 85px;
+    }
+}
